@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://robinvanloonowasp.github.io',
+	base: 'astro-starlight-guide',
 	integrations: [
 		starlight({
 			title: 'OWASP Security Champions Guide',
